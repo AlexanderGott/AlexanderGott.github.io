@@ -1,6 +1,9 @@
 body {
+  border: 0;
+  margin: 0;
+  padding: 0;
   background-image: url('./assets/images/gottlogo.png');
-  background-color: black; /* Gray color with 70% opacity */
+  background-color: #1b1b1b; /* Gray color with 70% opacity */
   background-size: 50%; /* Fit the image within the body */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;
