@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-image: url('./assets/images/gottlogo.png');
   background-color: #1b1b1b; /* Dark Gray color*/
-  background-size: contain; /* Fit the image within the container without cutting */
+  background-size: auto 85%; /* Fit the image within the container without cutting */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;
 }
