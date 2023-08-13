@@ -6,12 +6,13 @@ body {
   background-color: #1b1b1b; /* Dark Gray color*/
   background-size: auto 85%; /* Fit the image within the container without cutting */
   background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-position: center center;
+  background-position: center top 80px; /* Set the background position */
 }
 
 @media (max-width: 768px) {
   body {
     background-size: contain; /* Adjust the size for mobile */
+    background-position: center top 62px; /* Set the background position */
   }
 }
 
