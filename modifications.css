@@ -4,14 +4,15 @@ body {
   padding: 0;
   background-image: url('./assets/images/gottlogo.png');
   background-color: #1b1b1b; /* Gray color with 70% opacity */
-  background-size: 50%; /* Fit the image within the body */
+  background-size: auto 85%; /* Fit the image height and adjust width */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;
+  transition: background-size 1s linear; /* Apply the transition to background-size */
 }
 
 @media (max-width: 768px) {
   body {
-      background-size: 90%; /* Adjust the size for mobile */
+    background-size: auto 80%; /* Adjust the size for mobile */
   }
 }
 

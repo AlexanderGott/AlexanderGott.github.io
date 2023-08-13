@@ -6,6 +6,8 @@ function changeBackgroundImage() {
 
   if (currentFileName === 'menu.html') {
     body.style.backgroundImage = "url('./assets/menu.jpeg')";
+  } else if (currentFileName === 'contactanos.html') {
+    body.style.backgroundImage = "url('./assets/contactanos.jpeg')";
   } else {
     body.style.backgroundImage = "url('./assets/gottlogo.png')";
   }
