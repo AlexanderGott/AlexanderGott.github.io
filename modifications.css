@@ -1,0 +1,17 @@
+body {
+  background-image: url('./assets/images/gottlogo.png');
+  background-color: black; /* Gray color with 70% opacity */
+  background-size: 50%; /* Fit the image within the body */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  body {
+      background-size: 90%; /* Adjust the size for mobile */
+  }
+}
+
+.test {
+  border: 3px solid red;
+}
